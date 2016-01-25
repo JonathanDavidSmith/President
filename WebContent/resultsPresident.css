@@ -4,8 +4,7 @@ table tr{
 
 }
 
-<<<<<<< HEAD
-=======
+
 h3{
     background-color: blue;
     color: white;
@@ -17,15 +16,14 @@ h3{
     visiblity: hidden;
 }
 
->>>>>>> 04ae4db3ad4f4f7ca074b2614435103bd1da9738
+
 img {
     -webkit-filter: grayscale(100%); 
 
     filter: grayscale(100%);
 }
 
-<<<<<<< HEAD
-=======
+
 a:link, a:visited{
 background-color: #f44336;
 color: white;
@@ -44,7 +42,7 @@ color: white;
 
 }
 
->>>>>>> 04ae4db3ad4f4f7ca074b2614435103bd1da9738
+
 a:link {
     color: white;
     text-decoration: none;
@@ -52,25 +50,14 @@ a:link {
 
 /* visited link */
 a:visited {
-<<<<<<< HEAD
-    color: yellow;
-=======
+
     color: blue;
->>>>>>> 04ae4db3ad4f4f7ca074b2614435103bd1da9738
+
     text-decoration: none;
 }
 
 /* mouse over link */
-<<<<<<< HEAD
-a:hover {
-    color: red;
-}
 
-/* selected link */
-a:active {
-    color: blue;
-}
-=======
 /*a:hover {
     color: red;
 }
@@ -79,7 +66,7 @@ a:active {
 a:active {
     color: blue;
 }*/
->>>>>>> 04ae4db3ad4f4f7ca074b2614435103bd1da9738
+
 
 body{
 
@@ -96,8 +83,7 @@ table tr td{
 	border: solid white;
 	color: white;
 
-<<<<<<< HEAD
-=======
+
 }
 .photo{
     border-color: white;
@@ -105,5 +91,5 @@ table tr td{
     border-width: 3px;
        
 
->>>>>>> 04ae4db3ad4f4f7ca074b2614435103bd1da9738
+
 }

@@ -19,10 +19,7 @@ body {
     height: 100%;
 }
 
-<<<<<<< HEAD
 
-/* unvisited link */
-=======
 a:link, a:visited{
 background-color: #f44336;
 color: white;
@@ -43,7 +40,7 @@ background-color: red;
 
 
 /*/* unvisited link */
->>>>>>> 04ae4db3ad4f4f7ca074b2614435103bd1da9738
+
 a:link {
     color: white;
 }
