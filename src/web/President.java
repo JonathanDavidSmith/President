@@ -96,9 +96,5 @@ public class President implements Comparable<President> {
 		Integer presRank;
 		presRank = number.compareTo(n.number);
 		return presRank;
-	}
-	
-	
-	
-	
+	}	
 }

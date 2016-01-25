@@ -16,12 +16,12 @@
 	
 		<form action="choiceServlet" method="POST">
 			<c:forEach var="thisPresident" items="${allPresidents}">
-				<input type="radio" name="number" value=" ${thisPresident.number}"/> 
 				<img src=${thisPresident.photo}>
-				<br>
+				<input type="radio" name="number" value=" ${thisPresident.number}"/> 
+				
 			</c:forEach>
 
-			<br> <input type="submit" value="Submit" />
+			<br> <div class="wrapper"></div><input class="submit" type="submit" value="Submit" /></div>
 
 		</form>
 

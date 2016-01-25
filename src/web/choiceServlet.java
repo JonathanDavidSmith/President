@@ -59,7 +59,7 @@ public class choiceServlet extends HttpServlet {
 
 		choiceString = " " + req.getParameter("choice");
 
-		// display presient from the session
+		// display president from the session
 
 		if(answer.equals(" presidentsList")) {
 			// method to populate the select.jsp
@@ -150,9 +150,9 @@ public class choiceServlet extends HttpServlet {
 	
 	@Override
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+		if(req.getParameter("number")!=null )
 		choice = Integer.parseInt((req.getParameter("number")).trim());
-		
+		else choice = null;
 		System.out.println(choice + "  my number choice of president ");
 
 		
@@ -189,13 +189,19 @@ public class choiceServlet extends HttpServlet {
 			presidentsHashSet = (Set<President>) session.getAttribute("sessionPresidents");
 			System.out.println("adding president object to session");
 			presidentsHashSet.add(myChoicePresident);
-	
+		
 
 			req.setAttribute("choosenPresident", myChoicePresident);
 
 			req.getRequestDispatcher("/results.jsp").forward(req, resp);
 			//req.getRequestDispatcher("/choice.jsp").forward(req, resp);
 
+		}
+		if (myChoicePresident == null){
+			req.setAttribute("choosenPresident", myChoicePresident);
+
+			req.getRequestDispatcher("/error.jsp").forward(req, resp);
+			
 		}
 
 		// save my latest choice of a president to a session

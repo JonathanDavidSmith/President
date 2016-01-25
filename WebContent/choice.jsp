@@ -15,8 +15,8 @@
 	</head>
 	<body>
 
-
-     	<h3> ${onePresident.name} </h3>
+		
+     	<h1> ${onePresident.name} </h1>
 
 
 

@@ -16,26 +16,24 @@
 
 
 	<p>
-		<a href="choiceServlet?answerParameter=presidentsList"> Click here to select another
-			President</a>
+		<a href="choiceServlet?answerParameter=presidentsList"> Presidential photo list </a>
 	</p>
 
 
     <p>
-		<a href="choiceServlet?answerParameter=test1"> Click here to select next
-			president</a>
+		<a href="choiceServlet?answerParameter=test1"> Scroll through Presidents</a>
 	</p>
 
 
 
 
-    <h3> This is the president you selected last: ${choosenPresident.name} ${choosenPresident.party}</h3>
+    <h3> This is the president you selected last: ${choosenPresident.name} ${choosenPresident.party} ${choosenPresident.term}</h3>
     <div id="photo">
-    <img src="${choosenPresident.photo}"/>
-    </div><div id="frame">
+    <img class="photo" src="${choosenPresident.photo}"/>
+    </div><!-- <div id="frame">
     	<img src="https://s-media-cache-ak0.pinimg.com/736x/47/95/db/4795dba31d3c4e58d48c541fe91ee500.jpg" />
     	
-    </div>
+    </div> -->
     <h6></h6>
 
     
