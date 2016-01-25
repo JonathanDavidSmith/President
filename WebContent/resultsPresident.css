@@ -1,0 +1,49 @@
+table tr{
+
+	font-weight: bold;
+
+}
+
+img {
+    -webkit-filter: grayscale(100%); 
+
+    filter: grayscale(100%);
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+body{
+
+	background-image: url("http://valvewz.com/i/captain-america-wallpaper-desktop-background-1rpb.jpg");
+	background-attachment: fixed; 
+}
+
+table tr th{
+	border: solid white;
+	color: white;
+}
+
+table tr td{
+	border: solid white;
+	color: white;
+
+}

@@ -1,0 +1,11 @@
+body{
+	
+	background-image: url("http://wallpapercave.com/wp/7qDMdB4.jpg");
+    background-attachment: fixed;
+}
+
+img{
+
+	max-width: 250px;
+	max-height: 250px;
+}
